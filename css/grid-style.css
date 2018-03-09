@@ -129,7 +129,16 @@ footer {
 
   .historic-place {
     border: 1px #dddddd solid;
-    font-size: 80%;
+    font-size: 0.4em;
+  }
+
+
+  .historic-place:last-child{
+    margin-right: 0;
+  }
+
+  .historic-place p, .historic-place h4 {
+    padding: 1em;
   }
 
   table {
