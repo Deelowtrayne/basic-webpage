@@ -1,0 +1,184 @@
+@charset "UTF-8";
+
+* {  box-sizing: border-box; }
+
+/* GLOBAL STYLES */
+
+html, body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+ }
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #43403C;
+  background-color: #F0F0F1;
+}
+
+div { display: block; }
+
+small {
+  font-size: 70%;
+}
+
+a, a:visited {
+  color:#FF7682;
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.row {
+  width: 100%;
+  margin: 2rem 0rem;
+}
+
+.pink-text {color: #FF7682; font-style: italic;}
+
+/* PAGE-TOP STYLES */
+
+#cover {
+  width: 100%;
+  height: 100%;
+  max-height: 800px;
+  padding-left: 50px;
+  margin-left: 0px;
+  background: url('https://wallpapercave.com/wp/cuuog7V.jpg')no-repeat #FF7685;
+  background-size: cover;
+}
+
+#logo {
+
+  display: inline-block;
+  font-family: 'Kavivanar';
+  margin-top: 12rem;
+  margin-right: 32px;
+  color: #FFF;
+}
+
+.display-picture {
+  display: block;
+}
+
+.display-picture h3{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  padding-right: 2em;
+  color: inherit;
+}
+
+.display-picture img{
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  border: 5px #FFF solid;
+  border-radius: 8px;
+}
+
+/* MAIN CONTENT STYLES*/
+
+.main {
+  position: relative;
+  color: #43403C;
+  background-color: #FFF;
+  padding: 4rem;
+}
+
+#city-image {
+  width: 100%;
+  max-width: 180px;
+  float: left;
+  margin-right: 12px;
+}
+
+#city-image:hover{
+  z-index: 1000;
+  width: 100%;
+  max-width: 12000px;
+  float: left;
+  margin-right: 12px;
+}
+table {
+  width: 80%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:first-child {
+    background-color: #dddddd;
+}
+
+.historic-place {
+  width: 90%;
+  display: block;
+  margin-bottom: 2em;
+}
+
+.historic-place img {
+  width: 100%;
+}
+
+.historic-place p, .historic-place h4 {
+  padding: 0.4em;
+}
+
+footer {
+  padding-top: 5rem;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+
+@media screen and (min-width: 768px){
+  .display-picture {
+    display: block;
+    position: absolute;
+    right: 5em;
+    top: -5rem;
+  }
+
+  .display-picture h3{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-right: 18px;
+    float:left;color: #fff;
+  }
+
+  .display-picture img{
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+    border: 5px #FFF solid;
+    border-radius: 8px;
+  }
+  .historic-place {
+    display: inline-block;
+    width: 31%;
+    border: 1px #dddddd solid;
+    font-size: 80%;
+  }
+  .historic-place:last-child{
+    margin-right: 0;
+  }
+
+  .historic-place p, .historic-place h4 {
+    padding: 1em;
+  }
+
+}

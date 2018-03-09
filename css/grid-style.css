@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #43403C;
+  background-color: #F0F0F1;
+}
+
+small {
+  font-size: 60%;
+}
+
+a, a:visited {
+  color:#FF7682;
+  text-decoration: none;
+}
+
+.container {
+  background-color: #FFFFFF;
+}
+
+.pink-text {color: #FF7682; font-style: italic;}
+
+
+/* PAGE-TOP STYLES */
+
+#cover {
+  max-height: 800px;
+  background: url('https://wallpapercave.com/wp/cuuog7V.jpg')no-repeat #FF7685;
+  background-size: cover;
+}
+
+#logo {
+  font-family: 'Kavivanar';
+  margin-top: 12rem;
+  margin-left: 3rem;
+  color: #FFF;
+}
+
+.display-picture {
+  margin-bottom: 3rem;
+}
+
+.display-picture h3{
+  font-family: 'Raleway', sans-serif;
+  display: block;
+  padding-right: 2em;
+  color: inherit;
+}
+
+.display-picture img{
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+  border: 5px #FFF solid;
+  border-radius: 8px;
+}
+
+.main {
+  position: relative;
+  color: #43403C;
+  background-color: #FFF;
+}
+
+
+#city-image:hover{
+  z-index: 1000;
+  width: 100%;
+  max-width: 12000px;
+  float: left;
+  margin-right: 12px;
+}
+table {
+  width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:first-child {
+    background-color: #dddddd;
+}
+
+
+.historic-place {
+  margin-bottom: 2em;
+}
+
+.historic-place img {
+  width: 100%;
+}
+
+footer {
+  padding-top: 5rem;
+  padding-bottom: 2 rem;
+  margin: 0;
+  text-align: center;
+  color: #333;
+}
+
+@media screen and (min-width: 768px){
+  .display-picture {
+    width: 60%;
+    text-align: right;
+    position: absolute;
+    right: -3em;
+    top: -8rem;
+  }
+
+  .display-picture h3{
+    font-family: 'Raleway', sans-serif;
+    display: inline-block;
+    margin-right: -2rem;
+    float:left;color: #fff;
+  }
+
+  small { color: inherit;}
+
+  .display-picture img{
+    display: inline-block;
+    width: 80%;
+    max-width: 200px;
+    border: 5px #FFF solid;
+    border-radius: 8px;
+  }
+
+  .historic-place {
+    border: 1px #dddddd solid;
+    font-size: 80%;
+  }
+
+  table {
+    width: 80%;
+  }
+
+
+}
